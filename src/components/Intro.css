@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+.I_background {
+  max-height: 710px;
+  min-width: 710px;
+  background: #111;
+  z-index: -1;
+}
+
+.I_title {
+  position: absolute;
+  width: 100%;
+  top: 400px;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Grandiflora One", serif;
+  z-index: 1;
+}
+
+.I_background > img {
+  width: 100%;
+  opacity: 0.75;
+  z-index: -1;
+}
+
+.I_mouse__curser {
+  position: relative;
+  border-left: 1px solid #111;
+  left: 2px;
+  animation: banjjak 1s infinite;
+  z-index: 1;
+}
+
+@keyframes banjjak {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
