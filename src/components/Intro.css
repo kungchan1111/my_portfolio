@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 .I_background {
+  position: relative;
   max-height: 710px;
   min-width: 710px;
   background: #111;
@@ -21,8 +22,8 @@
 
 .I_background > img {
   width: 100%;
+  max-height: 710px;
   opacity: 0.75;
-  z-index: -1;
 }
 
 .I_mouse__curser {
