@@ -1,15 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 .header__container {
   width: 100vw;
   position: fixed;
   min-width: 710px;
   box-sizing: border-box;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Lora", serif;
   padding: 30px;
   display: flex;
   justify-content: space-between;
-  background: rgba(181, 225, 255, 0.2);
+  background: #4ba3eb83;
   z-index: 1;
 }
 

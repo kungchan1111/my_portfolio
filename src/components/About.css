@@ -1,0 +1,55 @@
+.about {
+  box-sizing: border-box;
+  min-width: 710px;
+  width: 100%;
+  height: 820px;
+}
+
+.A__container {
+  height: 100%;
+}
+
+.A__box {
+  width: 100%;
+  height: 100%;
+  background-color: #aa78eb;
+}
+
+.A__sticky {
+  position: sticky;
+  height: 100vh;
+  top: 90px;
+}
+
+.A__box > div > span {
+  font-family: "Lora", serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.A__data {
+  margin: 20px;
+  padding: 30px;
+  font-family: "Grandiflora One", serif;
+  font-weight: 600;
+  font-size: 20px;
+  opacity: 0;
+  animation: up 1.5s forwards;
+}
+
+.A__data > div > h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+@keyframes up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

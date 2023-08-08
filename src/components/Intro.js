@@ -19,7 +19,7 @@ function Intro() {
   });
 
   return (
-    <div className="Intro">
+    <div id="intro" className="intro">
       <div className="I_title">
         <span>{texts}</span>
         <div className="I_mouse__curser" />

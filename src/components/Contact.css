@@ -1,0 +1,49 @@
+.contact {
+  box-sizing: border-box;
+  min-width: 710px;
+  width: 100%;
+  height: 820px;
+}
+
+.C__container {
+  height: 100%;
+}
+
+.C__box {
+  width: 100%;
+  height: 100%;
+  background-color: #3641dd;
+}
+
+.C__sticky {
+  position: sticky;
+  height: 100vh;
+  top: 170px;
+}
+
+.C__box > div > span {
+  font-family: "Lora", serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.C__title {
+  position: sticky;
+  top: 90px;
+}
+
+.C__contant {
+  padding-top: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.C__contant > span {
+  font-size: 60px !important;
+}
+
+.C__contant > span > a > img {
+  width: 60px;
+}
