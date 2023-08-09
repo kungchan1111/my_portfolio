@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import icon from "../assets/img/git.png";
+import { contactData } from "./data";
 
 export default function Contact() {
   return (
@@ -10,15 +10,17 @@ export default function Contact() {
           <div className="C__title">
             <span>Contact</span>
           </div>
-          <div className="C__contant">
-            <span>Email : tf2lol@naver.com </span>
-            <span>
-              Github :{" "}
-              <a href="https://github.com/kungchan1111">
-                <img src={icon} alt="이미지를 불러오는중" />
-              </a>{" "}
-            </span>
-          </div>
+          {contactData.map((data) => (
+            <div className="C__contant">
+              <span>{data.email}</span>
+              <span>
+                Github :
+                <a href="https://github.com/kungchan1111">
+                  <img src={data.img} alt="이미지를 불러오는중" />
+                </a>
+              </span>
+            </div>
+          ))}
         </div>
       </div>
     </section>

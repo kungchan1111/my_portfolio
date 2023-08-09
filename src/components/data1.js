@@ -3,6 +3,7 @@ import css from "../assets/img/icon-css.png";
 import js from "../assets/img/icon-js.png";
 import react from "../assets/img/React-icon.svg";
 import node from "../assets/img/node_icon_130301.png";
+import background from "../assets/img/background.jpg";
 
 export const skillsText = [
   {
@@ -23,6 +24,12 @@ export const skillsText = [
   },
   {
     img: react,
-    desc: "리액트(React)는 페이스북에서 개발한 사용자 인터페이스(UI) 라이브러리로, 웹과 모바일 애플리케이션의 UI를 구축하기 위해 컴포넌트 기반 아키텍처를 활용합니다. 가상 DOM을 활용하여 성능을 향상시키고, 단방향 데이터 흐름을 강조하여 유지보수성과 예측 가능성을 높입니다.",
+    desc: "React는 페이스북에서 개발한 사용자 인터페이스(UI) 라이브러리로, 웹과 모바일 애플리케이션의 UI를 구축하기 위해 컴포넌트 기반 아키텍처를 활용합니다. 가상 DOM을 활용하여 성능을 향상시키고, 단방향 데이터 흐름을 강조하여 유지보수성과 예측 가능성을 높입니다.",
+  },
+];
+
+export const introBackgound = [
+  {
+    img: background,
   },
 ];

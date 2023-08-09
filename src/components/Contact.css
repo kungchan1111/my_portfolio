@@ -25,6 +25,7 @@
   font-family: "Lora", serif;
   font-weight: 600;
   font-size: 30px;
+  color: #fff;
 }
 
 .C__title {
@@ -41,6 +42,7 @@
 }
 
 .C__contant > span {
+  color: #000 !important;
   font-size: 60px !important;
 }
 

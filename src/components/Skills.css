@@ -26,6 +26,7 @@
   font-family: "Lora", serif;
   font-weight: 600;
   font-size: 30px;
+  color: #fff;
 }
 
 .S__logos {
@@ -58,6 +59,19 @@
   position: absolute;
   width: 60%;
   left: 200px;
+  color: #000 !important;
+
   font-family: "Grandiflora One", serif !important;
   font-size: 19px !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .S__text {
+    position: absolute;
+    width: 65%;
+    left: 200px;
+    font-family: "Grandiflora One", serif !important;
+    font-weight: bolder;
+    font-size: 15px !important;
+  }
 }

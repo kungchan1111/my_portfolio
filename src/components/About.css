@@ -25,6 +25,7 @@
   font-family: "Lora", serif;
   font-weight: 600;
   font-size: 30px;
+  color: #fff;
 }
 
 .A__data {
@@ -34,7 +35,10 @@
   font-weight: 600;
   font-size: 20px;
   opacity: 0;
-  animation: up 1.5s forwards;
+  transform: translateY(30px);
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
 }
 
 .A__data > div > h1,
@@ -43,13 +47,8 @@ p {
   margin-bottom: 0px;
 }
 
-@keyframes up {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.about.show,
+.A__data.show {
+  opacity: 1;
+  transform: translateY(0);
 }

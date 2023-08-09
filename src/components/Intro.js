@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Intro.css";
-import background from "../assets/img/background.jpg";
+import { introBackgound } from "./data1";
 
 function Intro() {
   const text = "React 초보의 포트폴리오";
@@ -24,9 +24,11 @@ function Intro() {
         <span>{texts}</span>
         <div className="I_mouse__curser" />
       </div>
-      <div className="I_background">
-        <img src={background} alt="이미지를 불러오는중" />
-      </div>
+      {introBackgound.map((img) => (
+        <div className="I_background">
+          <img src={img.img} alt="이미지를 불러오는중" />
+        </div>
+      ))}
     </div>
   );
 }
