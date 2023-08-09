@@ -15,6 +15,24 @@ export default function Header() {
   };
 
   const scrollToSticky = (elementId) => {
+    // console.log("???");
+    // const stickyElement = document.getElementById(elementId);
+
+    // if (stickyElement) {
+    //   const yOffset =
+    //     elementId === "intro"
+    //       ? 0
+    //       : elementId === "about"
+    //       ? -90
+    //       : elementId === "skills"
+    //       ? -130
+    //       : -170;
+    //   // const yOffset = -90; // Adjust this value as needed
+    //   const y =
+    //     stickyElement.getBoundingClientRect().top + window.scrollY + yOffset;
+    //   window.scrollTo({ top: y, behavior: "smooth" });
+    // }
+
     if (elementId === "intro") {
       window.scrollTo({ top: 0, behavior: "smooth" });
     } else if (elementId === "about") {
