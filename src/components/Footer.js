@@ -5,11 +5,11 @@ import { footerData } from "./data";
 export default function Footer() {
   return (
     <footer className="footer">
-      {footerData.map((data) => (
-        <div className="footer__container">
+      <div className="footer__container">
+        {footerData.map((data) => (
           <span>{data.desc}</span>
-        </div>
-      ))}
+        ))}
+      </div>
     </footer>
   );
 }
