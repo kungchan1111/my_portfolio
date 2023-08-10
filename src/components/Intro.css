@@ -49,7 +49,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 490px) {
   .I_title {
     width: 100%;
     top: 300px;

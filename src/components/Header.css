@@ -10,6 +10,7 @@
   justify-content: space-between;
   background: #4ba3eb83;
   z-index: 1;
+  min-width: 320px;
 }
 
 .H_hidden {
@@ -132,7 +133,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 490px) {
   .header__container {
     display: flex;
     background: #4ba3eb83;

@@ -17,9 +17,15 @@ export default function Skills() {
             </div>
           ))}
           {skillsText.map((skills, index) => (
-            <div key={index} className="S__logos__2">
+            <div
+              key={index}
+              id={`S__logos__2__${index + 1}`}
+              className="S__logos__2"
+            >
               <img src={skills.img} alt="이미지를 불러오는중" />
-              <span className="S__text__2">{skills.desc}</span>
+              <span id={`S__text__2__${index + 1}`} className="S__text__2">
+                {skills.desc}
+              </span>
             </div>
           ))}
         </div>
