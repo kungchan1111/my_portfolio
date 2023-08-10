@@ -1,6 +1,5 @@
 .contact {
   box-sizing: border-box;
-  min-width: 710px;
   width: 100%;
   height: 820px;
 }
@@ -48,4 +47,26 @@
 
 .C__contant > span > a > img {
   width: 60px;
+}
+
+@media screen and (max-width: 320px) {
+  .C__contant {
+    padding-top: 250px;
+  }
+
+  .C__contant > span {
+    font-size: 20px !important;
+  }
+
+  .C__contant > span > a > img {
+    width: 20px;
+  }
+
+  .C__sticky {
+    top: 130px;
+  }
+
+  .C__title {
+    top: 50px;
+  }
 }

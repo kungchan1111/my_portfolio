@@ -19,7 +19,7 @@ function Intro() {
   });
 
   return (
-    <div id="intro" className="intro">
+    <section id="intro" className="intro">
       <div className="I_title">
         <span>{texts}</span>
         <div className="I_mouse__curser" />
@@ -29,7 +29,7 @@ function Intro() {
           <img src={img.img} alt="이미지를 불러오는중" />
         </div>
       ))}
-    </div>
+    </section>
   );
 }
 
