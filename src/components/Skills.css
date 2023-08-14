@@ -1,3 +1,7 @@
+/* 폰트 가져오기 */
+@import url("https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+/* 스킬 섹션 스타일 */
 .skills {
   box-sizing: border-box;
   width: 100%;
@@ -32,6 +36,7 @@
   color: #fff;
 }
 
+/* 로고 박스 스타일 */
 .S__logos {
   position: relative;
   overflow: hidden;
@@ -67,6 +72,7 @@
   font-size: 16px !important;
 }
 
+/* 작은 화면일 때 스타일 */
 @media screen and (max-width: 768px) {
   .S__logos {
     display: none;
@@ -76,6 +82,7 @@
     top: 90px;
   }
 
+  /* 로고 박스 스타일 */
   .S__logos__2 {
     position: absolute;
     overflow: hidden;
@@ -95,7 +102,8 @@
       z-index 0.4s ease-in-out;
   }
 
-  #S__logos__2__1:hover {
+  /* 로고별 스타일 조정 */
+  .S__logos__2:hover {
     height: 495px;
     transition:
       height 0.4s ease-in-out,
@@ -108,12 +116,7 @@
   }
 
   #S__logos__2__2:hover {
-    height: 495px;
     transform: translateY(-105px);
-    transition:
-      height 0.4s ease-in-out,
-      transform 0.4s ease-in-out;
-    z-index: 5;
   }
 
   #S__logos__2__3 {
@@ -121,12 +124,7 @@
   }
 
   #S__logos__2__3:hover {
-    height: 495px;
     transform: translateY(-210px);
-    transition:
-      height 0.4s ease-in-out,
-      transform 0.4s ease-in-out;
-    z-index: 5;
   }
 
   #S__logos__2__4 {
@@ -134,12 +132,7 @@
   }
 
   #S__logos__2__4:hover {
-    height: 495px;
     transform: translateY(-315px);
-    transition:
-      height 0.4s ease-in-out,
-      transform 0.4s ease-in-out;
-    z-index: 5;
   }
 
   #S__logos__2__5 {
@@ -147,14 +140,10 @@
   }
 
   #S__logos__2__5:hover {
-    height: 495px;
     transform: translateY(-420px);
-    transition:
-      height 0.4s ease-in-out,
-      transform 0.4s ease-in-out;
-    z-index: 5;
   }
 
+  /* 로고 이미지 스타일 */
   .S__logos__2 > img {
     margin: 0 auto;
     width: 75px;
@@ -163,6 +152,7 @@
     z-index: 2;
   }
 
+  /* 텍스트 스타일 */
   .S__text__2 {
     width: 90%;
     position: absolute;

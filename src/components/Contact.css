@@ -28,8 +28,12 @@
   color: #fff;
 }
 
-.C__title {
+.C__title,
+.C__sticky {
   position: sticky;
+}
+
+.C__title {
   top: 90px;
 }
 
@@ -56,11 +60,11 @@
   }
 
   .C__contant > span {
-    font-size: 20px !important;
+    font-size: 30px !important;
   }
 
   .C__contant > span > a > img {
-    width: 20px;
+    width: 30px;
   }
 
   .C__sticky {
