@@ -67,7 +67,7 @@
   font-size: 16px !important;
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 768px) {
   .S__logos {
     display: none;
   }
@@ -164,6 +164,7 @@
   }
 
   .S__text__2 {
+    width: 90%;
     position: absolute;
     top: 100px;
     color: #000 !important;

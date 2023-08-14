@@ -35,7 +35,7 @@
   position: relative;
   border-left: 1px solid #111;
   left: 2px;
-  animation: banjjak 1s infinite;
+  animation: banjjak 1s steps(1, end) infinite;
   z-index: -1;
 }
 

@@ -32,6 +32,7 @@ export default function About() {
                 <h1>{index + 1}.</h1>
                 <h3>{about.title}</h3>
                 <p>{about.desc}</p>
+                <hr id="A__bar" />
               </div>
             ))}
           </div>
