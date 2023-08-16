@@ -50,6 +50,7 @@
   justify-content: center;
   background-color: #fff;
   transition: width 0.3s ease-in-out;
+  z-index: 1;
 }
 
 .S__logos:hover {
@@ -86,7 +87,7 @@
   .S__logos__2 {
     position: absolute;
     overflow: hidden;
-    left: 11%;
+    left: calc(50% - (65% / 2) - 20px);
     width: 65%;
     height: 75px;
     padding: 10px;
@@ -161,4 +162,38 @@
     font-family: "Grandiflora One", serif !important;
     font-size: 20px !important;
   }
+
+  .S__background {
+    display: none !important;
+  }
+}
+
+/* gif배경 스타일 */
+.S__background {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 0;
+  transition: opacity 0.3s;
+}
+
+.gif__background {
+  width: 500px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.S__background > span {
+  position: absolute;
+  bottom: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
+  font-size: 25px !important;
+  color: #000 !important;
+}
+
+.S__background.hidden {
+  opacity: 0;
 }
